@@ -1,0 +1,27 @@
+{
+	"appId": "com.cheliangzhuli.app",
+	"appName": "车辆助理",
+	"webDir": "www",
+	"bundledWebRuntime": false,
+	"plugins": {
+		"CapacitorHttp": {
+			"enabled": true
+		},
+		"FileSystem": {
+			"permissions": [
+				"read",
+				"write",
+				"append"
+			]
+		},
+		"Share": {
+			"enabled": true
+		},
+		"Camera": {
+			"enabled": true
+		}
+	},
+	"server": {
+		"cleartext": true
+	}
+}
