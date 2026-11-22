@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="zh-CN" data-resolution="landscape">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@700;900&family=Noto+Sans+SC:wght@400;700&display=swap" rel="stylesheet" />
+    <style>
+      :root {
+        --bg: #1a2332;
+        --fg: #ffffff;
+        --accent: #d4af37;
+        --secondary: #4a5568;
+        --highlight: #e8b449;
+        --font-serif: 'Noto Serif SC', serif;
+        --font-sans: 'Noto Sans SC', sans-serif;
+      }
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        width: 1920px;
+        height: 1080px;
+        overflow: hidden;
+        background: var(--bg);
+      }
+      #root {
+        width: 100%;
+        height: 100%;
+        position: relative;
+      }
+      .clip {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="140" data-width="1920" data-height="1080">
+      <!-- Scene 1: Opening Title -->
+      <div id="scene1" class="clip" data-start="0" data-duration="15" data-track-index="0" data-composition-id="scene1" data-composition-src="compositions/scene1-opening.html"></div>
+
+      <!-- Scene 2: What is Constitution -->
+      <div id="scene2" class="clip" data-start="15" data-duration="25" data-track-index="0" data-composition-id="scene2" data-composition-src="compositions/scene2-intro.html"></div>
+
+      <!-- Scene 3: Fundamental Principles -->
+      <div id="scene3" class="clip" data-start="40" data-duration="25" data-track-index="0" data-composition-id="scene3" data-composition-src="compositions/scene3-principles.html"></div>
+
+      <!-- Scene 4: Citizens Rights and Obligations -->
+      <div id="scene4" class="clip" data-start="65" data-duration="30" data-track-index="0" data-composition-id="scene4" data-composition-src="compositions/scene4-rights.html"></div>
+
+      <!-- Scene 5: Minor Protection -->
+      <div id="scene5" class="clip" data-start="95" data-duration="25" data-track-index="0" data-composition-id="scene5" data-composition-src="compositions/scene5-minors.html"></div>
+
+      <!-- Scene 6: Closing -->
+      <div id="scene6" class="clip" data-start="120" data-duration="20" data-track-index="0" data-composition-id="scene6" data-composition-src="compositions/scene6-closing.html"></div>
+    </div>
+
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+      window.__timelines["main"] = tl;
+      tl.seek(0);
+    </script>
+  </body>
+</html>

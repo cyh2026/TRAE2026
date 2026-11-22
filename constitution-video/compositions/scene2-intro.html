@@ -1,0 +1,125 @@
+<template id="scene2-template">
+  <div data-composition-id="scene2" data-width="1920" data-height="1080">
+    <div class="scene-content">
+      <div class="decorative-bg"></div>
+      <h2 class="section-title">什么是宪法？</h2>
+      <div class="content-card">
+        <p class="main-text">
+          宪法是国家的<span class="highlight">根本法</span>，是治国安邦的<span class="highlight">总章程</span>
+        </p>
+        <p class="description">
+          宪法规定了国家的根本制度和根本任务，具有最高的法律效力
+        </p>
+      </div>
+      <div class="article-box">
+        <p class="article-label">《中华人民共和国宪法》序言</p>
+        <p class="article-text">
+          "本宪法以法律的形式确认了中国各族人民奋斗的成果，规定了国家的根本制度和根本任务，是国家的根本法，具有最高的法律效力。"
+        </p>
+      </div>
+    </div>
+
+    <style>
+      [data-composition-id="scene2"] {
+        background: #1a2332;
+        position: relative;
+        overflow: hidden;
+      }
+      [data-composition-id="scene2"] .scene-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 100px 160px;
+        gap: 50px;
+        position: relative;
+        z-index: 1;
+      }
+      [data-composition-id="scene2"] .decorative-bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: radial-gradient(ellipse at center, rgba(212, 175, 55, 0.08) 0%, transparent 60%);
+        pointer-events: none;
+      }
+      [data-composition-id="scene2"] .section-title {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 80px;
+        font-weight: 700;
+        color: #ffffff;
+        letter-spacing: 0.05em;
+        position: relative;
+      }
+      [data-composition-id="scene2"] .content-card {
+        background: rgba(255, 255, 255, 0.05);
+        border-left: 6px solid #d4af37;
+        padding: 50px 70px;
+        border-radius: 8px;
+        max-width: 1400px;
+      }
+      [data-composition-id="scene2"] .main-text {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 52px;
+        font-weight: 700;
+        color: #ffffff;
+        line-height: 1.4;
+        margin-bottom: 25px;
+      }
+      [data-composition-id="scene2"] .highlight {
+        color: #d4af37;
+        font-weight: 900;
+      }
+      [data-composition-id="scene2"] .description {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.85);
+        line-height: 1.5;
+      }
+      [data-composition-id="scene2"] .article-box {
+        background: rgba(212, 175, 55, 0.1);
+        border: 2px solid rgba(212, 175, 55, 0.3);
+        padding: 40px 60px;
+        border-radius: 8px;
+        max-width: 1400px;
+      }
+      [data-composition-id="scene2"] .article-label {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+        color: #d4af37;
+        margin-bottom: 20px;
+        letter-spacing: 0.05em;
+      }
+      [data-composition-id="scene2"] .article-text {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 32px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.9);
+        line-height: 1.6;
+        font-style: italic;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      // Entrance animations
+      tl.from(".section-title", { x: -80, opacity: 0, duration: 0.8, ease: "power3.out" }, 0.2);
+      tl.from(".content-card", { y: 60, opacity: 0, duration: 0.9, ease: "power2.out" }, 0.6);
+      tl.from(".main-text", { y: 30, opacity: 0, duration: 0.7, ease: "power2.out" }, 0.9);
+      tl.from(".description", { y: 30, opacity: 0, duration: 0.7, ease: "power2.out" }, 1.2);
+      tl.from(".article-box", { y: 50, opacity: 0, duration: 0.8, ease: "power2.out" }, 1.6);
+      tl.from(".article-label", { x: -30, opacity: 0, duration: 0.6, ease: "power2.out" }, 1.9);
+      tl.from(".article-text", { y: 20, opacity: 0, duration: 0.7, ease: "power2.out" }, 2.1);
+
+      window.__timelines["scene2"] = tl;
+    </script>
+  </div>
+</template>

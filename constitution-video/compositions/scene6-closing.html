@@ -1,0 +1,122 @@
+<template id="scene6-template">
+  <div data-composition-id="scene6" data-width="1920" data-height="1080">
+    <div class="scene-content">
+      <div class="decorative-circle circle1"></div>
+      <div class="decorative-circle circle2"></div>
+      <h2 class="closing-title">尊崇宪法 · 学习宪法</h2>
+      <h3 class="closing-subtitle">遵守宪法 · 维护宪法</h3>
+      <div class="accent-divider"></div>
+      <p class="call-to-action">
+        让宪法精神在心中生根发芽，让法治之光照亮前行之路
+      </p>
+      <div class="final-badge">
+        <p class="badge-text">建设社会主义法治国家</p>
+      </div>
+    </div>
+
+    <style>
+      [data-composition-id="scene6"] {
+        background: #1a2332;
+        position: relative;
+        overflow: hidden;
+      }
+      [data-composition-id="scene6"] .scene-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 120px;
+        gap: 40px;
+        position: relative;
+        z-index: 1;
+      }
+      [data-composition-id="scene6"] .decorative-circle {
+        position: absolute;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(212, 175, 55, 0.12) 0%, transparent 70%);
+        pointer-events: none;
+      }
+      [data-composition-id="scene6"] .circle1 {
+        width: 700px;
+        height: 700px;
+        top: -250px;
+        right: -250px;
+      }
+      [data-composition-id="scene6"] .circle2 {
+        width: 600px;
+        height: 600px;
+        bottom: -200px;
+        left: -200px;
+      }
+      [data-composition-id="scene6"] .closing-title {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 88px;
+        font-weight: 900;
+        color: #ffffff;
+        letter-spacing: 0.08em;
+        text-align: center;
+        text-shadow: 0 4px 20px rgba(212, 175, 55, 0.25);
+      }
+      [data-composition-id="scene6"] .closing-subtitle {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 64px;
+        font-weight: 700;
+        color: #d4af37;
+        letter-spacing: 0.06em;
+        text-align: center;
+      }
+      [data-composition-id="scene6"] .accent-divider {
+        width: 300px;
+        height: 4px;
+        background: linear-gradient(90deg, transparent, #d4af37, transparent);
+        margin: 20px 0;
+      }
+      [data-composition-id="scene6"] .call-to-action {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 40px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.9);
+        text-align: center;
+        line-height: 1.5;
+        max-width: 1200px;
+      }
+      [data-composition-id="scene6"] .final-badge {
+        background: linear-gradient(135deg, rgba(212, 175, 55, 0.2), rgba(212, 175, 55, 0.1));
+        border: 3px solid rgba(212, 175, 55, 0.5);
+        padding: 35px 70px;
+        border-radius: 12px;
+        margin-top: 20px;
+      }
+      [data-composition-id="scene6"] .badge-text {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 44px;
+        font-weight: 700;
+        color: #d4af37;
+        letter-spacing: 0.08em;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      // Entrance animations
+      tl.from(".circle1", { scale: 0, opacity: 0, duration: 1.5, ease: "power2.out" }, 0.2);
+      tl.from(".circle2", { scale: 0, opacity: 0, duration: 1.5, ease: "power2.out" }, 0.4);
+      tl.from(".closing-title", { y: 50, opacity: 0, duration: 0.9, ease: "power3.out" }, 0.8);
+      tl.from(".closing-subtitle", { y: 40, opacity: 0, duration: 0.8, ease: "power2.out" }, 1.3);
+      tl.from(".accent-divider", { scaleX: 0, opacity: 0, duration: 0.8, ease: "power2.inOut" }, 1.7);
+      tl.from(".call-to-action", { y: 30, opacity: 0, duration: 0.7, ease: "power2.out" }, 2.1);
+      tl.from(".final-badge", { scale: 0.9, opacity: 0, duration: 0.8, ease: "back.out(1.4)" }, 2.5);
+
+      // Ambient animations
+      tl.to(".circle1", { scale: 1.1, duration: 10, ease: "sine.inOut", yoyo: true, repeat: 1 }, 3);
+      tl.to(".circle2", { scale: 1.12, duration: 11, ease: "sine.inOut", yoyo: true, repeat: 1 }, 3.5);
+
+      window.__timelines["scene6"] = tl;
+    </script>
+  </div>
+</template>

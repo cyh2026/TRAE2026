@@ -1,0 +1,135 @@
+{
+  "version": 1,
+  "historyId": "608e480c-7626-4fdb-a5d0-9fd072d0b3a2",
+  "currentRevision": "ae83293e-21e4-42ae-996a-1cb28807534c",
+  "pendingChanges": false,
+  "files": {
+    "AGENTS.md": {
+      "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/72/729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
+    },
+    "CLAUDE.md": {
+      "hash": "729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/72/729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
+    },
+    "compositions/scene1-opening.html": {
+      "hash": "b3f9c1c213c5e0b67e978eef0ccb4fb17e434c43b976d5a0a0d7491d006ad5fc",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/b3/b3f9c1c213c5e0b67e978eef0ccb4fb17e434c43b976d5a0a0d7491d006ad5fc"
+    },
+    "compositions/scene2-intro.html": {
+      "hash": "84d1609508a15dae88157483b8cbe9228691a58d6ea80ba01884afb39f07dcdb",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/84/84d1609508a15dae88157483b8cbe9228691a58d6ea80ba01884afb39f07dcdb"
+    },
+    "compositions/scene3-principles.html": {
+      "hash": "86264109f4401a4f4f8a1d36ea6d96aee7bc21bad37027ce144378cd43cbfc08",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/86/86264109f4401a4f4f8a1d36ea6d96aee7bc21bad37027ce144378cd43cbfc08"
+    },
+    "compositions/scene4-rights.html": {
+      "hash": "9c408abd6a0f6f67631ae3dab0d0c1c644fd894889675a66ce31225f4d72fba6",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/9c/9c408abd6a0f6f67631ae3dab0d0c1c644fd894889675a66ce31225f4d72fba6"
+    },
+    "compositions/scene5-minors.html": {
+      "hash": "6556e91ef4d2d862cec7221c788f94c02dac9dbc16f033e6fbcb8f8c14084959",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/65/6556e91ef4d2d862cec7221c788f94c02dac9dbc16f033e6fbcb8f8c14084959"
+    },
+    "compositions/scene6-closing.html": {
+      "hash": "d5f661fe7f6590e47767a5fb9c150b346b38d221344b82a9621183fd9c057779",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/d5/d5f661fe7f6590e47767a5fb9c150b346b38d221344b82a9621183fd9c057779"
+    },
+    "hyperframes.json": {
+      "hash": "53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/53/53dbce1e19aa713cbb12ee0bc4d206143b45ab15e6ffbfcaa8f69572d4d24d50"
+    },
+    "index.html": {
+      "hash": "630215c2a2c471a9946724b2622273e6731ee2f2ba5a34328e8c6dbf0271668e",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/63/630215c2a2c471a9946724b2622273e6731ee2f2ba5a34328e8c6dbf0271668e"
+    },
+    "meta.json": {
+      "hash": "8085296da3b100089aa42bd02ff742ad1229e6d94cdd4b7ff5043327132a5568",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/80/8085296da3b100089aa42bd02ff742ad1229e6d94cdd4b7ff5043327132a5568"
+    },
+    "package.json": {
+      "hash": "584413b645ae66a6d05204eea610a5e9654b292747c9a01f0716b806927a4729",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/58/584413b645ae66a6d05204eea610a5e9654b292747c9a01f0716b806927a4729"
+    }
+  },
+  "revisions": {
+    "ae83293e-21e4-42ae-996a-1cb28807534c": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795317487532,
+      "endedAt": 1795317487533,
+      "files": {
+        "compositions/scene3-principles.html": {
+          "before": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/30/300a9bbe8eb261ca42c09c0bdf7e464140aef5ce6639ec3f5a8b5946d5318c48",
+          "after": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/86/86264109f4401a4f4f8a1d36ea6d96aee7bc21bad37027ce144378cd43cbfc08"
+        }
+      }
+    }
+  },
+  "checks": {
+    "latest": {
+      "revision": null,
+      "id": "d2117140-e7f2-4d0c-8851-cd0f9decd16c"
+    },
+    "revisions": {},
+    "unversioned": [
+      {
+        "id": "d2117140-e7f2-4d0c-8851-cd0f9decd16c",
+        "scope": "project",
+        "report": "/workspace/constitution-video/.hyperframes/artifacts/checks/d2117140-e7f2-4d0c-8851-cd0f9decd16c.json",
+        "metadata": {
+          "ok": false,
+          "browserSkipped": true,
+          "options": {
+            "samples": 9,
+            "atTransitions": false,
+            "maxIssues": 80,
+            "collapseStatic": true,
+            "tolerance": 2,
+            "timeout": 45000,
+            "cache": true,
+            "contrast": true,
+            "craft": true,
+            "strict": false,
+            "snapshots": false,
+            "safeZones": [
+              "tiktok",
+              "reels",
+              "shorts"
+            ],
+            "browserGpuMode": "auto",
+            "includeUnmounted": false
+          }
+        },
+        "createdAt": 1795317333447,
+        "contentHash": "a92aa54029c766f89e6c18246dcd0d8c97dbb52d26ba2ed5786a537838175876",
+        "revision": null,
+        "inputFingerprint": "b4b236de2a06a972c0f583cc9a17d4bb581191481228ddb1b172c5a0919a8f16",
+        "inputScope": "local-project-files",
+        "attribution": "unversioned"
+      }
+    ]
+  },
+  "snapshots": {
+    "latest": null,
+    "revisions": {},
+    "unversioned": []
+  },
+  "renders": {
+    "latest": {
+      "id": "3f57521b-220b-4d28-8e80-b3467b705a5a",
+      "completedAt": 1795317669664,
+      "output": "/workspace/constitution-video/renders/constitution-video_2026-11-22_11-18-06.mp4",
+      "status": "completed",
+      "revision": "ae83293e-21e4-42ae-996a-1cb28807534c"
+    },
+    "retainedRevisions": [
+      "ae83293e-21e4-42ae-996a-1cb28807534c"
+    ]
+  },
+  "pendingArtifactCleanup": []
+}

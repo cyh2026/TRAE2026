@@ -1,0 +1,152 @@
+<template id="scene5-template">
+  <div data-composition-id="scene5" data-width="1920" data-height="1080">
+    <div class="scene-content">
+      <h2 class="section-title">未成年人保护</h2>
+      <div class="intro-text">
+        <p class="intro-paragraph">
+          宪法和法律规定了对未成年人的特殊保护，体现了国家对下一代的关怀
+        </p>
+      </div>
+      <div class="protection-cards">
+        <div class="protection-card">
+          <div class="card-icon">📚</div>
+          <h3 class="card-title">受教育权</h3>
+          <p class="card-desc">国家培养青年、少年、儿童在品德、智力、体质等方面全面发展</p>
+        </div>
+        <div class="protection-card">
+          <div class="card-icon">🛡️</div>
+          <h3 class="card-title">身心健康保护</h3>
+          <p class="card-desc">禁止虐待、遗弃未成年人，保护其身心健康和合法权益</p>
+        </div>
+        <div class="protection-card">
+          <div class="card-icon">⚖️</div>
+          <h3 class="card-title">司法保护</h3>
+          <p class="card-desc">对违法犯罪的未成年人实行教育、感化、挽救的方针</p>
+        </div>
+      </div>
+      <div class="legal-basis">
+        <p class="basis-label">法律依据</p>
+        <p class="basis-text">
+          《宪法》第四十六条 · 《未成年人保护法》· 《预防未成年人犯罪法》
+        </p>
+      </div>
+    </div>
+
+    <style>
+      [data-composition-id="scene5"] {
+        background: #1a2332;
+        position: relative;
+        overflow: hidden;
+      }
+      [data-composition-id="scene5"] .scene-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 120px;
+        gap: 45px;
+        position: relative;
+        z-index: 1;
+      }
+      [data-composition-id="scene5"] .section-title {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 76px;
+        font-weight: 700;
+        color: #ffffff;
+        letter-spacing: 0.05em;
+      }
+      [data-composition-id="scene5"] .intro-text {
+        max-width: 1400px;
+        text-align: center;
+      }
+      [data-composition-id="scene5"] .intro-paragraph {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 36px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.85);
+        line-height: 1.5;
+      }
+      [data-composition-id="scene5"] .protection-cards {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+        max-width: 1500px;
+      }
+      [data-composition-id="scene5"] .protection-card {
+        background: rgba(255, 255, 255, 0.04);
+        border: 2px solid rgba(212, 175, 55, 0.25);
+        padding: 50px 40px;
+        border-radius: 12px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+      }
+      [data-composition-id="scene5"] .card-icon {
+        font-size: 72px;
+        line-height: 1;
+      }
+      [data-composition-id="scene5"] .card-title {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 38px;
+        font-weight: 700;
+        color: #d4af37;
+        letter-spacing: 0.03em;
+      }
+      [data-composition-id="scene5"] .card-desc {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 26px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.8);
+        line-height: 1.5;
+      }
+      [data-composition-id="scene5"] .legal-basis {
+        background: rgba(212, 175, 55, 0.08);
+        padding: 30px 50px;
+        border-radius: 8px;
+        border: 1px solid rgba(212, 175, 55, 0.2);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+      }
+      [data-composition-id="scene5"] .basis-label {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        color: #d4af37;
+        letter-spacing: 0.05em;
+      }
+      [data-composition-id="scene5"] .basis-text {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.85);
+        letter-spacing: 0.03em;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      // Entrance animations
+      tl.from(".section-title", { y: -50, opacity: 0, duration: 0.8, ease: "power3.out" }, 0.2);
+      tl.from(".intro-paragraph", { y: 30, opacity: 0, duration: 0.7, ease: "power2.out" }, 0.6);
+      tl.from(".protection-card", {
+        y: 60,
+        opacity: 0,
+        duration: 0.7,
+        ease: "power2.out",
+        stagger: 0.2
+      }, 1.0);
+      tl.from(".legal-basis", { y: 40, opacity: 0, duration: 0.6, ease: "power2.out" }, 2.2);
+
+      window.__timelines["scene5"] = tl;
+    </script>
+  </div>
+</template>

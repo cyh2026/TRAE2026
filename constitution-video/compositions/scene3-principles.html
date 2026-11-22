@@ -1,0 +1,113 @@
+<template id="scene3-template">
+  <div data-composition-id="scene3" data-width="1920" data-height="1080">
+    <div class="scene-content">
+      <h2 class="section-title">宪法基本原则</h2>
+      <div class="principles-grid">
+        <div class="principle-card">
+          <div class="principle-number">01</div>
+          <h3 class="principle-title">党的领导原则</h3>
+          <p class="principle-desc">中国共产党领导是中国特色社会主义最本质的特征</p>
+        </div>
+        <div class="principle-card">
+          <div class="principle-number">02</div>
+          <h3 class="principle-title">人民主权原则</h3>
+          <p class="principle-desc">中华人民共和国的一切权力属于人民</p>
+        </div>
+        <div class="principle-card">
+          <div class="principle-number">03</div>
+          <h3 class="principle-title">法治原则</h3>
+          <p class="principle-desc">中华人民共和国实行依法治国，建设社会主义法治国家</p>
+        </div>
+        <div class="principle-card">
+          <div class="principle-number">04</div>
+          <h3 class="principle-title">民主集中制原则</h3>
+          <p class="principle-desc">国家机构实行民主集中制的原则</p>
+        </div>
+      </div>
+    </div>
+
+    <style>
+      [data-composition-id="scene3"] {
+        background: #1a2332;
+        position: relative;
+        overflow: hidden;
+      }
+      [data-composition-id="scene3"] .scene-content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 120px;
+        gap: 60px;
+        position: relative;
+        z-index: 1;
+      }
+      [data-composition-id="scene3"] .section-title {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 76px;
+        font-weight: 700;
+        color: #ffffff;
+        letter-spacing: 0.05em;
+      }
+      [data-composition-id="scene3"] .principles-grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 40px;
+        max-width: 1500px;
+      }
+      [data-composition-id="scene3"] .principle-card {
+        background: rgba(255, 255, 255, 0.04);
+        border: 2px solid rgba(212, 175, 55, 0.2);
+        padding: 45px 50px;
+        border-radius: 12px;
+        position: relative;
+      }
+      [data-composition-id="scene3"] .principle-number {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 64px;
+        font-weight: 900;
+        color: #d4af37;
+        opacity: 0.3;
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        line-height: 1;
+      }
+      [data-composition-id="scene3"] .principle-title {
+        font-family: 'Noto Serif SC', serif;
+        font-size: 40px;
+        font-weight: 700;
+        color: #ffffff;
+        margin-bottom: 18px;
+        letter-spacing: 0.03em;
+      }
+      [data-composition-id="scene3"] .principle-desc {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.8);
+        line-height: 1.5;
+      }
+    </style>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script>
+      window.__timelines = window.__timelines || {};
+      const tl = gsap.timeline({ paused: true });
+
+      // Entrance animations
+      tl.from(".section-title", { y: -50, opacity: 0, duration: 0.8, ease: "power3.out" }, 0.2);
+      tl.from(".principle-card", {
+        y: 60,
+        opacity: 0,
+        duration: 0.7,
+        ease: "power2.out",
+        stagger: 0.2
+      }, 0.6);
+
+      window.__timelines["scene3"] = tl;
+    </script>
+  </div>
+</template>
