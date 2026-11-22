@@ -7,6 +7,10 @@
       <h1 class="main-title">宪法之光</h1>
       <p class="subtitle">弘扬宪法精神 · 建设法治中国</p>
       <div class="accent-line"></div>
+      <div class="credit-info">
+        <p class="credit-class">高一（3）班</p>
+        <p class="credit-member">程奕宁</p>
+      </div>
     </div>
 
     <style>
@@ -75,6 +79,27 @@
         background: linear-gradient(90deg, transparent, #d4af37, transparent);
         margin-top: 20px;
       }
+      [data-composition-id="scene1"] .credit-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 12px;
+        margin-top: 30px;
+      }
+      [data-composition-id="scene1"] .credit-class {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 32px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.85);
+        letter-spacing: 0.05em;
+      }
+      [data-composition-id="scene1"] .credit-member {
+        font-family: 'Noto Sans SC', sans-serif;
+        font-size: 28px;
+        font-weight: 400;
+        color: rgba(255, 255, 255, 0.75);
+        letter-spacing: 0.03em;
+      }
     </style>
 
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
@@ -89,6 +114,9 @@
       tl.from(".main-title", { y: 60, opacity: 0, duration: 1, ease: "power3.out" }, 0.8);
       tl.from(".subtitle", { y: 40, opacity: 0, duration: 0.8, ease: "power2.out" }, 1.2);
       tl.from(".accent-line", { scaleX: 0, opacity: 0, duration: 0.8, ease: "power2.inOut" }, 1.5);
+      tl.from(".credit-info", { y: 30, opacity: 0, duration: 0.7, ease: "power2.out" }, 1.8);
+      tl.from(".credit-class", { y: 20, opacity: 0, duration: 0.6, ease: "power2.out" }, 2.0);
+      tl.from(".credit-member", { y: 20, opacity: 0, duration: 0.6, ease: "power2.out" }, 2.2);
 
       // Ambient animations
       tl.to(".circle1", { scale: 1.1, duration: 8, ease: "sine.inOut", yoyo: true, repeat: 1 }, 2);

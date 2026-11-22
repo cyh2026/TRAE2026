@@ -1,7 +1,7 @@
 {
   "version": 1,
   "historyId": "608e480c-7626-4fdb-a5d0-9fd072d0b3a2",
-  "currentRevision": "ae83293e-21e4-42ae-996a-1cb28807534c",
+  "currentRevision": "11db801a-23d4-4982-9be0-f22078cc363c",
   "pendingChanges": false,
   "files": {
     "AGENTS.md": {
@@ -13,8 +13,8 @@
       "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/72/729e31835a21c7b42ee006e2aacc63016abc05d26883f871ad3bf206943f2cfb"
     },
     "compositions/scene1-opening.html": {
-      "hash": "b3f9c1c213c5e0b67e978eef0ccb4fb17e434c43b976d5a0a0d7491d006ad5fc",
-      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/b3/b3f9c1c213c5e0b67e978eef0ccb4fb17e434c43b976d5a0a0d7491d006ad5fc"
+      "hash": "a3babb384910eb3fede8c6b7e0f8111e9f6e26ddec22fa3031be9cd4ba32025f",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/a3/a3babb384910eb3fede8c6b7e0f8111e9f6e26ddec22fa3031be9cd4ba32025f"
     },
     "compositions/scene2-intro.html": {
       "hash": "84d1609508a15dae88157483b8cbe9228691a58d6ea80ba01884afb39f07dcdb",
@@ -51,6 +51,10 @@
     "package.json": {
       "hash": "584413b645ae66a6d05204eea610a5e9654b292747c9a01f0716b806927a4729",
       "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/58/584413b645ae66a6d05204eea610a5e9654b292747c9a01f0716b806927a4729"
+    },
+    "subtitles.srt": {
+      "hash": "cef29d1435a0517df9680ceb5dbc92101aabfe8eb91605aff7232973da186a33",
+      "content": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/ce/cef29d1435a0517df9680ceb5dbc92101aabfe8eb91605aff7232973da186a33"
     }
   },
   "revisions": {
@@ -66,6 +70,25 @@
         "compositions/scene3-principles.html": {
           "before": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/30/300a9bbe8eb261ca42c09c0bdf7e464140aef5ce6639ec3f5a8b5946d5318c48",
           "after": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/86/86264109f4401a4f4f8a1d36ea6d96aee7bc21bad37027ce144378cd43cbfc08"
+        }
+      }
+    },
+    "11db801a-23d4-4982-9be0-f22078cc363c": {
+      "actor": {
+        "kind": "outside",
+        "name": "Outside"
+      },
+      "label": "Changed outside the app",
+      "startedAt": 1795317965502,
+      "endedAt": 1795317965507,
+      "files": {
+        "compositions/scene1-opening.html": {
+          "before": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/b3/b3f9c1c213c5e0b67e978eef0ccb4fb17e434c43b976d5a0a0d7491d006ad5fc",
+          "after": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/a3/a3babb384910eb3fede8c6b7e0f8111e9f6e26ddec22fa3031be9cd4ba32025f"
+        },
+        "subtitles.srt": {
+          "before": null,
+          "after": "/root/.cache/hyperframes/history/608e480c-7626-4fdb-a5d0-9fd072d0b3a2/blobs/ce/cef29d1435a0517df9680ceb5dbc92101aabfe8eb91605aff7232973da186a33"
         }
       }
     }
@@ -121,13 +144,14 @@
   },
   "renders": {
     "latest": {
-      "id": "3f57521b-220b-4d28-8e80-b3467b705a5a",
-      "completedAt": 1795317669664,
-      "output": "/workspace/constitution-video/renders/constitution-video_2026-11-22_11-18-06.mp4",
+      "id": "54ec7078-e54c-4d4c-bf71-202a938acec1",
+      "completedAt": 1795318138477,
+      "output": "/workspace/constitution-video/renders/constitution-video_2026-11-22_11-26-04.mp4",
       "status": "completed",
-      "revision": "ae83293e-21e4-42ae-996a-1cb28807534c"
+      "revision": "11db801a-23d4-4982-9be0-f22078cc363c"
     },
     "retainedRevisions": [
+      "11db801a-23d4-4982-9be0-f22078cc363c",
       "ae83293e-21e4-42ae-996a-1cb28807534c"
     ]
   },
