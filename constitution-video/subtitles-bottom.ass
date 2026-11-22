@@ -1,0 +1,62 @@
+[Script Info]
+Title: 宪法之光字幕
+ScriptType: v4.00+
+WrapStyle: 0
+ScaledBorderAndShadow: yes
+YCbCr Matrix: None
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Default,Noto Sans SC,32,&H00FFFFFF,&H000000FF,&H00000000,&H80000000,0,0,0,0,100,100,0,0,1,2,1,2,10,10,10,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:02.00,0:00:06.00,Default,,0,0,0,,宪法之光
+Dialogue: 0,0:00:07.00,0:00:11.00,Default,,0,0,0,,弘扬宪法精神 · 建设法治中国
+Dialogue: 0,0:00:12.00,0:00:14.00,Default,,0,0,0,,高一（3）班
+Dialogue: 0,0:00:14.50,0:00:16.00,Default,,0,0,0,,程奕宁
+Dialogue: 0,0:00:16.00,0:00:20.00,Default,,0,0,0,,什么是宪法？
+Dialogue: 0,0:00:21.00,0:00:27.00,Default,,0,0,0,,宪法是国家的根本法
+Dialogue: 0,0:00:28.00,0:00:33.00,Default,,0,0,0,,是治国安邦的总章程
+Dialogue: 0,0:00:34.00,0:00:39.00,Default,,0,0,0,,宪法规定了国家的根本制度和根本任务
+Dialogue: 0,0:00:41.00,0:00:45.00,Default,,0,0,0,,宪法基本原则
+Dialogue: 0,0:00:46.00,0:00:50.00,Default,,0,0,0,,一、党的领导原则
+Dialogue: 0,0:00:51.00,0:00:55.00,Default,,0,0,0,,中国共产党领导是中国特色社会主义最本质的特征
+Dialogue: 0,0:00:56.00,0:01:00.00,Default,,0,0,0,,二、人民主权原则
+Dialogue: 0,0:01:01.00,0:01:05.00,Default,,0,0,0,,中华人民共和国的一切权力属于人民
+Dialogue: 0,0:01:06.00,0:01:10.00,Default,,0,0,0,,三、法治原则
+Dialogue: 0,0:01:11.00,0:01:16.00,Default,,0,0,0,,中华人民共和国实行依法治国
+Dialogue: 0,0:01:17.00,0:01:21.00,Default,,0,0,0,,建设社会主义法治国家
+Dialogue: 0,0:01:22.00,0:01:26.00,Default,,0,0,0,,四、民主集中制原则
+Dialogue: 0,0:01:27.00,0:01:31.00,Default,,0,0,0,,国家机构实行民主集中制的原则
+Dialogue: 0,0:01:32.00,0:01:36.00,Default,,0,0,0,,公民的基本权利与义务
+Dialogue: 0,0:01:37.00,0:01:40.00,Default,,0,0,0,,基本权利
+Dialogue: 0,0:01:41.00,0:01:44.00,Default,,0,0,0,,平等权
+Dialogue: 0,0:01:45.00,0:01:48.00,Default,,0,0,0,,政治权利和自由
+Dialogue: 0,0:01:49.00,0:01:52.00,Default,,0,0,0,,宗教信仰自由
+Dialogue: 0,0:01:53.00,0:01:56.00,Default,,0,0,0,,人身自由
+Dialogue: 0,0:01:57.00,0:02:00.00,Default,,0,0,0,,社会经济权利
+Dialogue: 0,0:02:01.00,0:02:04.00,Default,,0,0,0,,文化教育权利
+Dialogue: 0,0:02:05.00,0:02:08.00,Default,,0,0,0,,基本义务
+Dialogue: 0,0:02:09.00,0:02:13.00,Default,,0,0,0,,维护国家统一和民族团结
+Dialogue: 0,0:02:14.00,0:02:17.00,Default,,0,0,0,,遵守宪法和法律
+Dialogue: 0,0:02:18.00,0:02:22.00,Default,,0,0,0,,维护祖国安全、荣誉和利益
+Dialogue: 0,0:02:23.00,0:02:27.00,Default,,0,0,0,,保卫祖国、依法服兵役
+Dialogue: 0,0:02:28.00,0:02:31.00,Default,,0,0,0,,依法纳税
+Dialogue: 0,0:02:32.00,0:02:36.00,Default,,0,0,0,,未成年人保护
+Dialogue: 0,0:02:37.00,0:02:42.00,Default,,0,0,0,,宪法和法律规定了对未成年人的特殊保护
+Dialogue: 0,0:02:43.00,0:02:47.00,Default,,0,0,0,,体现了国家对下一代的关怀
+Dialogue: 0,0:02:48.00,0:02:51.00,Default,,0,0,0,,受教育权
+Dialogue: 0,0:02:52.00,0:02:57.00,Default,,0,0,0,,国家培养青年、少年、儿童在品德、智力、体质等方面全面发展
+Dialogue: 0,0:02:58.00,0:03:01.00,Default,,0,0,0,,身心健康保护
+Dialogue: 0,0:03:02.00,0:03:07.00,Default,,0,0,0,,禁止虐待、遗弃未成年人
+Dialogue: 0,0:03:08.00,0:03:12.00,Default,,0,0,0,,保护其身心健康和合法权益
+Dialogue: 0,0:03:13.00,0:03:16.00,Default,,0,0,0,,司法保护
+Dialogue: 0,0:03:17.00,0:03:22.00,Default,,0,0,0,,对违法犯罪的未成年人实行教育、感化、挽救的方针
+Dialogue: 0,0:03:23.00,0:03:27.00,Default,,0,0,0,,尊崇宪法 · 学习宪法
+Dialogue: 0,0:03:28.00,0:03:32.00,Default,,0,0,0,,遵守宪法 · 维护宪法
+Dialogue: 0,0:03:33.00,0:03:38.00,Default,,0,0,0,,让宪法精神在心中生根发芽
+Dialogue: 0,0:03:39.00,0:03:44.00,Default,,0,0,0,,让法治之光照亮前行之路
+Dialogue: 0,0:03:45.00,0:03:50.00,Default,,0,0,0,,建设社会主义法治国家
